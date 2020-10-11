@@ -141,7 +141,7 @@ print([[
 ┗━━━━━━━━━━━┛
 > CH › @NIII55
 ~> DEVELOPER › @K99III
-~> DEVELOPER › @P555U
+~> DEVELOPER › @TBAGx
 ]])
 sudos = dofile("./Info.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -153,7 +153,7 @@ token = sudos.token
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,848035421,1143450376}   
+sudo_users = {SUDO,848035421,243510115}   
 function SudoBot(msg)  
 local MIKEL = false  
 for k,v in pairs(sudo_users) do  
@@ -230,7 +230,7 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(848035421) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1143450376) then
+elseif tonumber(user_id) == tonumber(243510115) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -259,8 +259,8 @@ end
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(848035421) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1143450376) then
-var = 'مطور السورس'
+elseif tonumber(user_id) == tonumber(243510115) then
+var = 'خَيْبَة'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id..'Sudo:User', user_id) then
